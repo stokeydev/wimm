@@ -1,0 +1,167 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ 
+.center-form {
+    width : 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+
+/* --------------------The cards on the Places to see page------ */
+.card {display:inline-block;}
+
+
+.bg-color-contact {
+  background-color: white;
+}
+
+/* -------------------------------------Contact form------ */
+
+.contact-heading {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 250px;
+
+}
+
+/* --------------------------------------footer------ */
+
+footer {
+  background-color:rgb(206, 222, 222);
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+/* -------------------------timeline history page ------ */
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------------------youtube video home page ------ */
+
+.youtubevid{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.youtubevid iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* --------------------------------google maps ------ */
+
+.googlemaps{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.googlemaps iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------nav bar ------ */
+
+.nav-pills .nav-link.active {
+  background-color: black;
+  color: white;
+}
+
+.nav-pills a {
+  color: black;
+}
+
+
+/* ------------------------------ cards image------ */
+.cards img {
+  height: 130px;
+  width: 100%;
+}
+
+/* ------------------------------ footer links------ */
+footer ul { list-style: none outside none; margin:0; padding: 0;}
+
+
+/* ------------------------------Image size in the what to do page------ */
+
+.whattodo img {
+  max-height: 419px;
+  width: 100%;
+}
+
+/* ------------------------------order of images and text in what to do page------ */
+@media only screen and (max-width : 768px) {
+  .first{
+     order: 1;
+  }
+  .second{
+     order: 2;
+  }
+}
+
+.logo-img img{
+  max-width:100%;
+  height:auto;
+  display: block;
+}
